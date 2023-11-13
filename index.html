@@ -3,52 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projeto para criação de um site pessoal para portifolio de projetos pessoais e profissionais">
-    <meta name="keyword" content="Python, Data Science, Ciênica de dados, análise de dados, django, HTML, CSS">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Site de portifolio de projetos de Carlos Rodrigues</title>
+    <meta name="description" content="Site de portifólio de projetos">
+    <meta name="keywords" content="HTML, CSS, Portifólio, Data Science, automação, RPA">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Portifólio de Projetos de Carlos Rodrigues</title>
 </head>
-<body style="background:  #040838; color: white;">
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-5 border-bottom">
-            <a href="/" class="d-flex align-items-center mb- mb-md-0 me-md-auto text-dark text-decoration-none">
-                <span class="fs-4" style="color: white;">< / Carlos Rodrigues ></span>
-            </a>
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            < / Carlos Rodrigues > 
+        </div>
+        <div class="menu">
+            <a href="#">Sobre</a>
+            <a href="#">Skills</a>
+            <a href="#">Portifólio</a>
+            <a id="botao_contato" href="#">Contato</a>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="headline">
+            <h5>DATA SCIENCE E RPA (AUTOMAÇÃO ROBÓTICA DE PROCESSOS)</h5>
+            <h3>Carlos Rodrigues</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis adipisci temporibus quisquam sunt impedit facilis. Laborum voluptates, amet excepturi ipsa fugiat ullam autem dolorem id. Molestiae, laudantium laborum. Repellat, eveniet.</p>
+            <a class = "botao_curriculo" href="#">Baixar Currículo</a>
+        </div>
+        <div class="imagem">
+            <img style="max-width:90%" src="img/prototipo1sem_fundo2.png">
+        </div>
+    </header>
+    <section class="sobre">
+        <div class="foto">
+            <p>FOTO</p>
+            <p>Carlos Rodrigues</p>
+            <p><a href="#">email</a> <a href="#">github</a> <a href="#">linkedin</a></p>
+        </div>
+        <div class="texto_sobre">
+            <h2>Sobre</h2>
+            <p>Commodi excepturi recusandae sunt mollitia, aliquid porro harum ullam eos officia delectus suscipit perferendis quo voluptatum totam quisquam voluptates perspiciatis ducimus ipsam! Harum dignissimos placeat, commodi voluptatum voluptates in. Sed.</p>
+        </div>
+    </section>
+    <!-- <section class="skills">
+        <div class="texto_sobre">
+            <h2>Skills</h2>
+            <p>Python Django Machine Learning RPA</p>
+        </div>
+    <section class="portifolio">
+        <div class="imagem">
+            <h2>Portifolio</h2>
+            <div class="cards">
+                <img src="https://picsum.photos/200/185">
+                <p style="text-align: center;">DATA SCIENCE</p>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div> -->
+            <!-- <div class="cards"><a>RPA</a></div> -->
+        <!-- </div>
+    </section> -->
+    <!-- <footer class="contato">
+        <div class="texto_sobre">
+            <h2>Contato</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="texto_sobre">
+            <ul>
+                <li><a href="#">telefone</a></li> 
+                <li><a href="#">github</a></li>
+                <li><a href="#">email</a></li> 
+                <li><a href="#">linkedin</a></li>
             </ul>
-        </header>
-        <section class="border">
-            <div class="row">
-                <div class="col-md-8 mt-2">
-                    <h2 class="fs-5 mt-5">Lorem ipsum dolor sit amet consectetu  elit.</h2>
-                    <h1 class="display-3 fw-bold">Carlos Rodrigues</h1>
-                    <p class="mt-4 fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, totam. Quidem delectus aperiam reiciendis facilis neque corporis consequatur, obcaecati fugiat libero, est sed accusamus aliquam eius beatae earum, voluptate deleniti!</p>
-                    <a href="#" class="fw-bold btn btn-primary">Baixar Currículo</a>
-                </div>
-                <div class="col-md-4 border">
-                    <img src="img/imagem.png" class="img-fluid img-thumbnail" >
-                </div>
-            </div>
-        </section>
-        <section  class = "border mt-4">
-            <div class="row">
-                    <div class="col-md-8 mt-2">
-                        <img src="img/foto_carlos.jpeg" class="rounded mx-auto d-block img-fluid img-thumbnail " >
-                    </div>
-                    <div class="col-md-4 border">
-                        <h2>Sobre</h2>
-                        <h3>Conheça um pouco sobre mim</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
-
-            </div>
-        </section>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        </div>
+    </footer> -->
 </body>
 </html>

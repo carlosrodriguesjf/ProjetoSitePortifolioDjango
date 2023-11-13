@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@600&display=swap');
+
+*{ 
+    box-sizing: border-box;
+    color: #afe7ed;
+ } 
+
+body {
+    /* background-color: #083747; */
+    margin: 0;
+}
+
+
+.navbar {
+    background-color: #056c81;
+    /* height: 100px; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo{
+    font-size: 21px;
+    flex: 20%;
+    margin-left: 10%;
+    /* border: 1px solid; */
+    text-align: center;
+}
+
+.menu {  
+    /* border: 1px solid; */
+    flex: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 16px;
+}
+
+#botao_contato {
+    background: #102838;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding:10px;
+    text-decoration: none;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao_contato:hover {
+    background-color: #0aaabe;
+    color: #0f1216;
+    font-size: 20px;
+}
+
+
+.header {
+    display: flex;
+    flex-flow: row;
+    background-color: #083747;
+    background-image: radial-gradient(#056c81, #083747 80%);
+    align-items: center;
+
+}
+.sobre{
+    display: flex;
+    flex-flow: row;
+    background-color: #083747;
+    background-image: radial-gradient(#056c81, #083747 80%);
+    align-items: center;
+
+}
+
+
+.headline{
+    /* border: 1px solid white; */
+    margin-left: 10%;
+    flex: 40%;
+}
+
+.imagem{
+    /* border: 1px solid white; */
+    margin-right: 10%;
+    text-align: center;
+    flex: 50%;
+}
+
+a.botao_curriculo {
+    display: inline-block;
+    margin-top: 5px;
+    background: #102838;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding:10px;
+    text-decoration: none;
+}
+
+
+a.botao_curriculo:hover {
+    background-color: #0aaabe;
+    color: #0f1216;
+    padding:12px;
+    text-decoration: none;
+}
+
+
+.foto{
+    border: 1px solid white;
+    margin-left: 10%;
+    flex: 30%;
+}
+
+
+.texto_sobre{
+    border: 1px solid white;
+    margin-right: 10%;
+    text-align: justify;
+    flex: 70%;
+}
+
+
+
+
+
+
+
+
+.cards{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #056c81;
+    /* box-shadow: 5px 5px 15px; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,100), 0 6px 20px 0 rgba(0,0,0,0.100);
+}

@@ -27,7 +27,7 @@ body {
     flex: 20%;
     margin-left: 10%;
     /* border: 1px solid; */
-    text-align: center;
+    text-align: left;
 }
 
 .menu {  
@@ -97,7 +97,7 @@ body {
     /* border: 1px solid white; */
     margin-right: 10%;
     text-align: center;
-    flex: 50%;
+    flex: 40%;
 }
 
 a.botao_curriculo {
@@ -122,7 +122,7 @@ a.botao_curriculo:hover {
 .foto{
     border: 1px solid white;
     margin-left: 10%;
-    flex: 30%;
+    flex: 40%;
 }
 
 
@@ -130,22 +130,43 @@ a.botao_curriculo:hover {
     border: 1px solid white;
     margin-right: 10%;
     text-align: justify;
-    flex: 70%;
+    flex: 60%;
+}
+
+.sessao_icones{
+    background-color: #083747;
+    background-image: radial-gradient(#056c81, #083747 80%);
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row;
+    padding: 50px 50px;
 }
 
 
+.icones {  
+    /* border: 1px solid; */
+    /* justify-content: center;
+    padding: 10px 10px; */
+}
+
+/* .portifolio{
+    background-color: #083747;
+    background-image: radial-gradient(#056c81, #083747 80%);
+    border: 2px bisque;
+    
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+} */
 
 
-
-
-
-
-.cards{
-    width: 200px;
-    height: 250px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #056c81;
-    /* box-shadow: 5px 5px 15px; */
+/* .cards{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 10%10px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 15px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,100), 0 6px 20px 0 rgba(0,0,0,0.100);
-}
+} */

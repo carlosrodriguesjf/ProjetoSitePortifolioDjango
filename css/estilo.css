@@ -136,37 +136,34 @@ a.botao_curriculo:hover {
 .sessao_icones{
     background-color: #083747;
     background-image: radial-gradient(#056c81, #083747 80%);
-    border: 1px solid black;
-    justify-content: center;
+    border: 1px solid white;
     text-align: center;
-    flex-flow: row;
-    padding: 50px 50px;
+    padding-bottom:  50px;
 }
 
 
 .icones {  
-    /* border: 1px solid; */
-    /* justify-content: center;
-    padding: 10px 10px; */
+    border: 1px solid;
+    justify-content: center;
+    padding: 20px;
+
 }
 
-/* .portifolio{
+.portifolio{
     background-color: #083747;
     background-image: radial-gradient(#056c81, #083747 80%);
-    border: 2px bisque;
-    
-    margin-top: 80px;
-    margin-left: 10%;
-    margin-right: 10%;
+    border: 10px white;
 
-} */
+}
 
 
-/* .cards{
+.cards{
     display: flex;
     flex-flow: row wrap;
+    background-color: #083747;
+    background-image: radial-gradient(#056c81, #083747 80%);
     margin-left: 10%10px;
     margin-right: 10px;
     box-shadow: 5px 5px 15px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,100), 0 6px 20px 0 rgba(0,0,0,0.100);
-} */
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site de portifólio de projetos">
-    <meta name="keywords" content="HTML, CSS, Portifólio, Data Science, automação, RPA">
+    <meta name="keywords" content="HTML, CSS, Portifólio, Data Science, Automação, RPA, Ciência de Dados">
     <link rel="stylesheet" href="css/estilo.css">
     <title>Portifólio de Projetos de Carlos Rodrigues</title>
 </head>
@@ -57,28 +57,42 @@
 
     <section class="portifolio">
         <h2>Portifolio</h2>
-        <div>
-            <img src="https://picsum.photos/200/185">
-            <p>DATA SCIENCE</p>
-            <p>Lorem ipsum dolor sit amet</p>
+        <div class="servicos">
+            <div class="cards">
+                <img src="https://picsum.photos/200/185">
+                <h3>DATA SCIENCE</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="cards">
+                <img src="https://picsum.photos/200/185">
+                <h3>AUTOMAÇÃO DE PROCESSOS</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="cards">
+                <img src="https://picsum.photos/200/185">
+                <h3>DESENVOLVIMENTO WEB</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
         </div>
-        <div class="cards">
-            <a>RPA</a>
+
         </div>
     </section> 
-    <!-- <footer class="contato">
-        <div class="texto_sobre">
-            <h2>Contato</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <div class="footer">
+        <div class="contact-form">
+            <h2>Fale Conosco</h2>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
         </div>
-        <div class="texto_sobre">
-            <ul>
-                <li><a href="#">telefone</a></li> 
-                <li><a href="#">github</a></li>
-                <li><a href="#">email</a></li> 
-                <li><a href="#">linkedin</a></li>
-            </ul>
-        </div>
-    </footer> -->
+    </div>
 </body>
 </html>

@@ -7,7 +7,7 @@
  } 
 
 body {
-    /* background-color: #083747; */
+    background-color: #083747;
     margin: 0;
 }
 
@@ -70,6 +70,7 @@ body {
 
 
 .header {
+    margin-top: 10px;
     display: flex;
     flex-flow: row;
     background-color: #083747;
@@ -134,8 +135,7 @@ a.botao_curriculo:hover {
 }
 
 .sessao_icones{
-    background-color: #083747;
-    background-image: radial-gradient(#056c81, #083747 80%);
+
     border: 1px solid white;
     text-align: center;
     padding-bottom:  50px;
@@ -149,21 +149,88 @@ a.botao_curriculo:hover {
 
 }
 
-.portifolio{
-    background-color: #083747;
-    background-image: radial-gradient(#056c81, #083747 80%);
-    border: 10px white;
 
+.portifolio{
+
+    border: 2px solid white;
+    display: inline-block;
+    width: 100%;
+    
+
+
+}
+
+.portifolio h2 {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.servicos {
+    width: 100%;
+    border: 1px solid;
+    display: inline-block;
+    text-align: center;
 }
 
 
 .cards{
-    display: flex;
-    flex-flow: row wrap;
-    background-color: #083747;
-    background-image: radial-gradient(#056c81, #083747 80%);
-    margin-left: 10%10px;
-    margin-right: 10px;
-    box-shadow: 5px 5px 15px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,100), 0 6px 20px 0 rgba(0,0,0,0.100);
+    display: inline-block;
+    border: 1px solid;
+    width: 25%;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    /* box-shadow: 5px 5px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,100), 0 6px 20px 0 rgba(0,0,0,0.100); */
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    color: #fff;
+}
+
+.contact-form form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.contact-form label {
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
 }

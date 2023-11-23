@@ -1,0 +1,88 @@
+
+Para referenciar o css externo, digitar no head do html:
+<link rel="stylesheet" href="nome_pasta/nome_arquivo.css">
+
+
+
+Sites apoio: Pexels, color picker, google fontes
+
+Tipos de seletores:
+
+nome tag -> tag_html
+classe   -> .nome_classe
+id       -> #nome_id
+
+coringa(aplica em toda a pagina) 
+*{ 
+xxxx
+} 
+
+agrupamento de seletores
+h1, p {
+xxxx
+}
+
+Propriedades:
+- color -> cor do texto
+
+- background -> fundo (cores ou imagens)
+	background-color: cor
+	background-image: url("imagem.jpg")
+	background-size: cover(adapta ao tamanho) ou contain
+	background-repeat:no_repeat (repete se a imagem for menor do que o espaço)
+	background-position: (posição da imagem)
+
+- border -> borda do elemento
+
+- margin -> espaço entre elementos(externos)
+	margin-top: 2px ou 10%
+	margin-bottom: 2px
+	margin-left: 2px
+	margin-right: 2px
+	margin: top right bottom left
+
+- padding -> espaço interno
+	padding: top right bottom left
+
+- width e height -> largura e altura
+	max-width: (largura maxima)
+
+- text-align -> alinhamento de texto
+	direction: rtl; (direção do texto)
+	text-decoration: none; (remove a linha abaixo da palavra)
+	text-decoration: overline; (insere a linha acima da palavra)
+	text-decoration: line-through; (tachado)
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-transform: lowercase ;
+	text-transform: capitalize;
+	text-ident: 60px; (recua da primeira linha)
+	letter-spacing: 5px; (espaçamento entre as linhas)
+	line-height: 1px; (espaçamento entre linhas)
+	word-spacing: 10px; (espaçamento entre palavras)
+
+- font
+	font-family: (tipos de fontes)
+	font-size:
+	font-style:
+	font-weight:
+
+- links
+	a.nome_classe{
+	xxxx
+	}
+
+- display -> como ou se o elemento sera exibido
+	block; (extensao total da pagina) -> form, p,div,h1,header,section, footer padrao
+	inline; (em linha)-> a
+	none;
+
+
+
+
+
+	
+
+
+
+

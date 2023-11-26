@@ -54,7 +54,7 @@ body {
 
 #botao_contato {
     background: #102838;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     border-radius: 10px;
     padding:10px;
     text-decoration: none;
@@ -105,7 +105,7 @@ a.botao_curriculo {
     display: inline-block;
     margin-top: 5px;
     background: #102838;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     border-radius: 10px;
     padding:10px;
     text-decoration: none;
@@ -120,14 +120,14 @@ a.botao_curriculo:hover {
 }
 
 
-.foto{
+.foto {
     /* border: 1px solid white; */
     margin-left: 10%;
     flex: 40%;
 }
 
 
-.texto_sobre{
+.texto_sobre {
     /* border: 1px solid white; */
     margin-right: 10%;
     text-align: justify;
@@ -135,7 +135,6 @@ a.botao_curriculo:hover {
 }
 
 .sessao_icones{
-
     /* border: 1px solid white; */
     text-align: center;
     padding-bottom:  50px;
@@ -150,22 +149,17 @@ a.botao_curriculo:hover {
     padding: 20px;
 
 }
-
 .imagem {
     border-radius: 30px;
 }
 
 
 .portifolio{
-
     /* border: 2px solid white; */
     display: inline-block;
     width: 100%;
     background-color: #083747;
     background-image: radial-gradient(#056c81, #083747 80%);
-    
-
-
 }
 
 .portifolio h2 {
@@ -232,8 +226,6 @@ a.botao_curriculo:hover {
     display: block;
     padding: 10px;
     justify-content: left;
-    
-    
 }
 
 .button-submit {
@@ -242,6 +234,42 @@ a.botao_curriculo:hover {
     font-size: 20px;
 }
 
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
 
+.contact-form h2 {
+    color: #fff;
+}
 
+.contact-form form {
+    display: grid;
+    grid-gap: 10px;
+}
 
+.contact-form label {
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}

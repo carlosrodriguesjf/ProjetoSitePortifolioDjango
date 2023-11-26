@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@600&display=swap');
+
+*{ 
+    box-sizing: border-box;
+    color: #afe7ed;
+ } 
+
+body {
+    background-color: #083747;
+    margin: 0;
+}
+
+.cabecalho {
+    width: 80%;
+    border: 1px white solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+
+.portifolio h1 {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+h2 {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.servicos {
+    width: 100%;
+    /* border: 1px solid; */
+    display: inline-block;
+    text-align: center;
+}
+
+.projeto {
+    width: 80%;
+    border: 1px white solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.desenvolvimento {
+    border: 1px white solid;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.imagem_principal {
+    border: 1px solid;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+

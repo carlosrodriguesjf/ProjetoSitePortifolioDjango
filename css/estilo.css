@@ -137,7 +137,7 @@ a.botao_curriculo:hover {
 .sessao_icones{
     /* border: 1px solid white; */
     text-align: center;
-    padding-bottom:  50px;
+    padding:  50px;
     background-color: #083747;
     background-image: radial-gradient(#056c81, #083747 80%);
 }
@@ -191,10 +191,9 @@ a.botao_curriculo:hover {
 
 
 .footer {
-    width: 80%;
+    width: 100%;
     padding: 20px;
     text-align: center;
-    margin-left: 10%;
     margin-right: 10%;
     background-color: #083747;
     background-image: radial-gradient(#056c81, #083747 80%);
@@ -215,23 +214,44 @@ a.botao_curriculo:hover {
 }
 
 .contact-form-items{
-  
+    
     width: 400px;
     margin: 10px;
     padding: 10px;
     font-size: 20px;
+    margin-left: -120px;
 }
 
 .items {
-    display: block;
+    
+    display: flex;
     padding: 10px;
     justify-content: left;
+    width: 800px;
+}
+
+#name, #email, #message {
+    
+    margin: 10px;
+    color: #040838;
+    font-size: 18px;
+    
+}
+
+#label_name, #label_email {
+    margin-top: 15px;
+}
+
+#label_message {
+
+    margin-top: 70px;
 }
 
 .button-submit {
     margin-top: 10px;
     color: #083747 ;
     font-size: 20px;
+    margin-left: 370px;
 }
 
 .contact-form {
@@ -263,7 +283,7 @@ a.botao_curriculo:hover {
 }
 
 .contact-form button {
-    background-color: #4CAF50;
+    background-color: #040838;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -271,5 +291,5 @@ a.botao_curriculo:hover {
 }
 
 .contact-form button:hover {
-    background-color: #45a049;
+    background-color: #042066;
 }

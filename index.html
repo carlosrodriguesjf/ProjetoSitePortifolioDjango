@@ -14,10 +14,10 @@
             < / Carlos Rodrigues > 
         </div>
         <div class="menu">
-            <a href="#">Sobre</a>
-            <a href="#">Skills</a>
-            <a href="#">Portifólio</a>
-            <a id="botao_contato" href="#">Contato</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#skills">Skills</a>
+            <a href="#portifolio">Portifólio</a>
+            <a id="botao_contato" href="#contato">Contato</a>
         </div>
     </nav>
     <header class="header">
@@ -25,13 +25,13 @@
             <h5>DATA SCIENCE E RPA (AUTOMAÇÃO ROBÓTICA DE PROCESSOS)</h5>
             <h3>Carlos Rodrigues</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis adipisci temporibus quisquam sunt impedit facilis. Laborum voluptates, amet excepturi ipsa fugiat ullam autem dolorem id. Molestiae, laudantium laborum. Repellat, eveniet.</p>
-            <a class = "botao_curriculo" href="#">Baixar Currículo</a>
+            <a class = "botao_curriculo" href="docs/curriculo_carlos_rodrigues_v211123.pdf" target="_blank" rel="noopener noreferrer">Baixar Currículo</a>
         </div>
         <div class="imagem">
             <img style="max-width:90%" src="img/prototipo1sem_fundo2.png">
         </div>
     </header>
-    <section class="sobre">
+    <section class="sobre" id="sobre">
         <div class="foto">
             <img src="img/foto_carlos.jpeg">
             <p>Carlos Rodrigues</p>
@@ -45,7 +45,7 @@
         </div>
     </section>
 
-    <section class="sessao_icones">
+    <section class="sessao_icones" id="skills">
         <h2>Skills</h2>
         <div class="icones">
             <img style="padding: 0 40px"; src="img/python.png">
@@ -55,21 +55,21 @@
         </div>
     </section>
 
-    <section class="portifolio">
+    <section class="portifolio" id="portifolio">
         <h2>Portifolio</h2>
         <div class="servicos">
             <div class="cards">
-                <img src="https://picsum.photos/200/185">
+                <a href="portifolio.html"><img src="https://picsum.photos/200/185"></a>
                 <h3>DATA SCIENCE</h3>
                 <p>Lorem ipsum dolor sit amet</p>
             </div>
             <div class="cards">
-                <img src="https://picsum.photos/200/185">
+                <a href="portifolio.html"><img src="https://picsum.photos/200/185"></a>
                 <h3>AUTOMAÇÃO DE PROCESSOS</h3>
                 <p>Lorem ipsum dolor sit amet</p>
             </div>
             <div class="cards">
-                <img src="https://picsum.photos/200/185">
+                <a href="portifolio.html"><img src="https://picsum.photos/200/185"></a>
                 <h3>DESENVOLVIMENTO WEB</h3>
                 <p>Lorem ipsum dolor sit amet</p>
             </div>
@@ -77,23 +77,23 @@
     </section> 
     
     <footer>
-    <div class="footer">
+    <div class="footer" id="contato">
         <div class="contact-form">
             <h2>Contato</h2>
             <h4>Você pode me enviar um e-mail, entrar em contato por telefone, whatsapp ou preencher o formulário abaixo</h4>
             <form action="#" method="post">
                 <div class="contact-form-items">
                     <div class="items">
-                        <label for="name">Nome:</label>
+                        <label for="name" id="label_name">Nome:</label>
                         <input type="text" id="name" name="name" required>
                     </div>
                     <div class="items">
-                        <label for="email">Email:</label>
+                        <label for="email" id="label_email">Email:</label>
                         <input type="email" id="email" name="email" required>
                     </div>
                     <div class="items">        
-                        <label for="message">Mensagem:</label>
-                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <label for="message" id="label_message">Mensagem:</label>
+                        <textarea id="message" name="message" rows="8" required></textarea>
                     </div>
                     <div>
                         <button class="button-submit" type="submit">Enviar</button>
@@ -104,3 +104,4 @@
     </div>
 </body>
 </html>
+

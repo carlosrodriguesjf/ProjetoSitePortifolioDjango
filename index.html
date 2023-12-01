@@ -17,12 +17,13 @@
             <a href="#sobre">Sobre</a>
             <a href="#skills">Skills</a>
             <a href="#portifolio">Portifólio</a>
-            <a id="botao_contato" href="#contato">Contato</a>
+            <a id="botao_contato" href="contato.html">Contato</a>
         </div>
     </nav>
+
     <header class="header">
         <div class="headline">
-            <h5>DATA SCIENCE E RPA (AUTOMAÇÃO ROBÓTICA DE PROCESSOS)</h5>
+            <h4>DATA SCIENCE E RPA (AUTOMAÇÃO ROBÓTICA DE PROCESSOS)</h4>
             <h3>Carlos Rodrigues</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis adipisci temporibus quisquam sunt impedit facilis. Laborum voluptates, amet excepturi ipsa fugiat ullam autem dolorem id. Molestiae, laudantium laborum. Repellat, eveniet.</p>
             <a class = "botao_curriculo" href="docs/curriculo_carlos_rodrigues_v211123.pdf" target="_blank" rel="noopener noreferrer">Baixar Currículo</a>
@@ -31,11 +32,16 @@
             <img style="max-width:90%" src="img/prototipo1sem_fundo2.png">
         </div>
     </header>
+
+
+
+
+
     <section class="sobre" id="sobre">
         <div class="foto">
-            <img src="img/foto_carlos.jpeg">
+            <img class= "foto_carlos" src="img/foto_carlos.jpeg">
             <p>Carlos Rodrigues</p>
-            <p><a href="#"><img src="img/mail.png"></a> <a href="#"><img src="img/github.png"></a> <a href="#"><img src="img/linkedin.png"></a></p>
+            <p class="mini_icones"><a href="mailto:carlosrodriguesjf@gmail.com"><img src="img/mail.png"></a> <a href="https://github.com/carlosrodriguesjf"><img src="img/github.png"></a> <a href="https://www.linkedin.com/in/carlosrodriguesjf/"><img src="img/linkedin.png"></a></p>
         </div>
         <div class="texto_sobre">
             <h2>Sobre</h2>
@@ -45,22 +51,27 @@
         </div>
     </section>
 
+
+   
     <section class="sessao_icones" id="skills">
         <h2>Skills</h2>
         <div class="icones">
-            <img style="padding: 0 40px"; src="img/python.png">
-            <img style="padding: 0px 40px 0 40px"; src="img/r.png">
-            <img style="padding: 0px 40px 0 40px"; src="img/html.png">
-            <img style="padding: 0px 40px 0 40px"; src="img/css.png">
+            <img style="padding: 0 40px"; src="img/python64-1.png">
+            <img style="padding: 0px 40px 0 40px"; src="img/r-64.png">
+            <img style="padding: 0px 40px 0 40px"; src="img/html-5-64.png">
+            <img style="padding: 0px 40px 0 40px"; src="img/css-3-64.png">
         </div>
     </section>
+
+
+
 
     <section class="portifolio" id="portifolio">
         <h2>Portifolio</h2>
         <div class="servicos">
             <div class="cards">
                 <a href="portifolio.html"><img src="https://picsum.photos/200/185"></a>
-                <h3>DATA SCIENCE</h3>
+                <h3>DATA <br>SCIENCE</h3>
                 <p>Lorem ipsum dolor sit amet</p>
             </div>
             <div class="cards">
@@ -75,33 +86,37 @@
             </div>
         </div>
     </section> 
-    
+
+
+ 
+
     <footer>
-    <div class="footer" id="contato">
-        <div class="contact-form">
-            <h2>Contato</h2>
-            <h4>Você pode me enviar um e-mail, entrar em contato por telefone, whatsapp ou preencher o formulário abaixo</h4>
-            <form action="#" method="post">
-                <div class="contact-form-items">
-                    <div class="items">
-                        <label for="name" id="label_name">Nome:</label>
-                        <input type="text" id="name" name="name" required>
+        <div class="footer" id="contato">
+            <div class="contact-form">
+                <h2>Contato</h2>
+                <h4>Você pode me enviar um e-mail, entrar em contato por telefone, whatsapp ou preencher o formulário abaixo</h4>
+                <form action="#" method="post">
+                    <div class="contact-form-items">
+                        <div class="items">
+                            <label for="name" id="label_name">Nome:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="items">
+                            <label for="email" id="label_email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="items">        
+                            <label for="message" id="label_message">Mensagem:</label>
+                            <textarea id="message" name="message" rows="7" required></textarea>
+                        </div>
+                        <div>
+                            <button class="button-submit" type="submit">Enviar</button>
+                        </div>
                     </div>
-                    <div class="items">
-                        <label for="email" id="label_email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="items">        
-                        <label for="message" id="label_message">Mensagem:</label>
-                        <textarea id="message" name="message" rows="8" required></textarea>
-                    </div>
-                    <div>
-                        <button class="button-submit" type="submit">Enviar</button>
-                    </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
 

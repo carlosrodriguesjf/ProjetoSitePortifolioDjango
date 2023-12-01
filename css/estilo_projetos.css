@@ -11,11 +11,10 @@ body {
 }
 
 .cabecalho {
-    width: 80%;
     border: 1px white solid;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
     padding: 20px;
 
 }
@@ -44,7 +43,9 @@ h2 {
 }
 
 .projeto {
-    width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
     border: 1px white solid;
     display: flex;
     align-items: center;
@@ -63,6 +64,12 @@ h2 {
 .imagem_principal {
     border: 1px solid;
     padding: 20px;
+}
+
+.imagem_principal img {
+    border: 1px solid;
+    margin-left: 75px;
+
 }
 
 

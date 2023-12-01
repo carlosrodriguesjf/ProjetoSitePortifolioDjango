@@ -13,30 +13,32 @@ body {
 
 
 .navbar {
+    /* border: 1px solid white; */
     background-color: #056c81;
-    /* height: 100px; */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    padding: 5px;
 }
 
 
 .logo{
-    font-size: 21px;
-    flex: 20%;
-    margin-left: 10%;
     /* border: 1px solid; */
+    font-size: 23px;
+    flex: 15%;
+    margin-left: 15%;
     text-align: left;
 }
 
 .menu {  
     /* border: 1px solid; */
-    flex: 70%;
+    flex: 55%;
     justify-content: center;
     align-items: center;
     text-align: right;
-    padding: 20px;
+    padding: 20px 120px 20px 20px;
+    margin-left: 15%;
 }
 
 .menu a{
@@ -45,6 +47,7 @@ body {
     padding: 20px 16px;
 }
 
+
 .menu a:hover{
     text-decoration: none;
     font-size: 22px;
@@ -52,15 +55,17 @@ body {
     padding: 20px 16px;
 }
 
+
 #botao_contato {
     background: #102838;
     border: 1px solid white;
     border-radius: 10px;
-    padding:10px;
+    padding:px;
     text-decoration: none;
-    margin-right: 10%;
+    margin-right: 15%;
     margin-left: 5%;
 }
+
 
 #botao_contato:hover {
     background-color: #0aaabe;
@@ -69,37 +74,39 @@ body {
 }
 
 
+
+
+
 .header {
+    /* border: 1px solid white; */
     margin-top: 10px;
     display: flex;
+    flex: 55%;
+    margin-left: 15%;
+    margin-right: 15%;
     flex-flow: row;
     background-color: #083747;
-    background-image: radial-gradient(#056c81, #083747 80%);
-    align-items: center;
-
-}
-.sobre{
-    display: flex;
-    flex-flow: row;
-    background-color: #083747;
-    background-image: radial-gradient(#056c81, #083747 80%);
-    align-items: center;
-
+    background-image: radial-gradient(#056c81, #083747 73%);
 }
 
 
 .headline{
     /* border: 1px solid white; */
-    margin-left: 10%;
     flex: 40%;
+    margin-left: 1%;
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
 }
+
 
 .imagem{
     /* border: 1px solid white; */
-    margin-right: 10%;
     text-align: center;
-    flex: 40%;
+    margin-top: 10px;
+    flex: 35%;
 }
+
+
 
 a.botao_curriculo {
     display: inline-block;
@@ -120,33 +127,75 @@ a.botao_curriculo:hover {
 }
 
 
+h2 {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+
+}
+ 
+
+
+.sobre{
+    /* border: 1px solid white; */
+    display: flex;
+    flex: 55%;
+    flex-flow: row;
+    background-color: #083747;
+    background-image: radial-gradient(#056c81, #083747 73%);
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-flow: row;
+}
+
+
 .foto {
     /* border: 1px solid white; */
-    margin-left: 10%;
+    margin-left: 12%;
     flex: 40%;
+}
+
+.foto_carlos {
+    border-radius: 80%;
+}
+
+
+.mini_icones a{
+    padding: 5px;
 }
 
 
 .texto_sobre {
     /* border: 1px solid white; */
-    margin-right: 10%;
+    margin-top: 10px;
+    margin-right: 1%;
     text-align: justify;
     flex: 60%;
+    padding: 20px;
 }
+
+
+
+
+
+
 
 .sessao_icones{
     /* border: 1px solid white; */
     text-align: center;
-    padding:  50px;
+    padding:  20px;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: #083747;
-    background-image: radial-gradient(#056c81, #083747 80%);
+    background-image: radial-gradient(#056c81, #083747 73%);
 }
 
 
 .icones {  
     /* border: 1px solid; */
     justify-content: center;
-    padding: 20px;
+    padding: 30px 20px 20px 20px;
 
 }
 .imagem {
@@ -154,32 +203,39 @@ a.botao_curriculo:hover {
 }
 
 
+
+
+
+
+
+
+
+
 .portifolio{
-    /* border: 2px solid white; */
+    /* border: 1px solid white; */
     display: inline-block;
-    width: 100%;
+    margin-top: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
     background-color: #083747;
-    background-image: radial-gradient(#056c81, #083747 80%);
+    background-image: radial-gradient(#056c81, #083747 73%);
 }
 
-.portifolio h2 {
-    width: 100%;
-    font-size: 30px;
-    text-align: center;
 
-}
 
 .servicos {
+    /* border: 1px solid white; */
     width: 100%;
-    /* border: 1px solid; */
     display: inline-block;
     text-align: center;
+    padding: 10px;
 }
 
 
 .cards{
-    display: inline-block;
     /* border: 1px solid; */
+    display: inline-block;
     width: 25%;
     border-radius: 20px;
     padding: 20px;
@@ -190,31 +246,32 @@ a.botao_curriculo:hover {
 
 
 
+
+
 .footer {
-    width: 100%;
+    /* border: 1px solid white; */
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding: 20px;
     text-align: center;
     margin-right: 10%;
-    background-color: #083747;
-    background-image: radial-gradient(#056c81, #083747 80%);
-    /* border: 1px solid white; */
-
+    /* background-color: #083747;
+    background-image: radial-gradient(#056c81, #083747 80%); */
 }
 
-.contact-form h2, h1 {
-     
+.contact-form h1 {  
     width: 100%;
     font-size: 30px;
     text-align: center;
 }
 
 .contact-form form {
-    
     display: inline-block;
 }
 
 .contact-form-items{
-    
+
     width: 400px;
     margin: 10px;
     padding: 10px;
@@ -223,7 +280,6 @@ a.botao_curriculo:hover {
 }
 
 .items {
-    
     display: flex;
     padding: 10px;
     justify-content: left;
@@ -231,7 +287,6 @@ a.botao_curriculo:hover {
 }
 
 #name, #email, #message {
-    
     margin: 10px;
     color: #040838;
     font-size: 18px;
@@ -243,8 +298,7 @@ a.botao_curriculo:hover {
 }
 
 #label_message {
-
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 .button-submit {
@@ -259,9 +313,6 @@ a.botao_curriculo:hover {
     margin: 0 auto;
 }
 
-.contact-form h2 {
-    color: #fff;
-}
 
 .contact-form form {
     display: grid;
@@ -292,4 +343,4 @@ a.botao_curriculo:hover {
 
 .contact-form button:hover {
     background-color: #042066;
-}
+}  

@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de portifólio de projetos">
+    <meta name="keywords" content="HTML, CSS, Portifólio, Data Science, Automação, RPA, Ciência de Dados">
+    <link rel="stylesheet" href="{% static 'general/css/estilo.css' %}">
+
+    {% block 'head' %} {% endblock %}
+    <title>{% block 'title' %} {% endblock %}</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            < / Carlos Rodrigues > 
+        </div>
+        <div class="menu">
+            <a href="#sobre">Sobre</a>
+            <a href="#skills">Skills</a>
+            <a href="#portifolio">Portifólio</a>
+            <a id="botao_contato" href="contato.html">Contato</a>
+        </div>
+    </nav>
+
+    {% block 'body' %} 
+    {% endblock %}
+
+ 
+
+    <footer>
+        <div class="footer" id="contato">
+            <div class="contact-form">
+                <h2>Contato</h2>
+                <h4>Você pode me enviar um e-mail, entrar em contato por telefone, whatsapp ou preencher o formulário abaixo</h4>
+                <form action="#" method="post">
+                    <div class="contact-form-items">
+                        <div class="items">
+                            <label for="name" id="label_name">Nome:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="items">
+                            <label for="email" id="label_email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="items">        
+                            <label for="message" id="label_message">Mensagem:</label>
+                            <textarea id="message" name="message" rows="7" required></textarea>
+                        </div>
+                        <div>
+                            <button class="button-submit" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

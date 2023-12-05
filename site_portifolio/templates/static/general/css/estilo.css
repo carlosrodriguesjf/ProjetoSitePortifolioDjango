@@ -1,0 +1,346 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@600&display=swap');
+
+*{ 
+    box-sizing: border-box;
+    color: #afe7ed;
+ } 
+
+body {
+    background-color: #083747;
+    margin: 0;
+}
+
+
+.navbar {
+    /* border: 1px solid white; */
+    background-color: #056c81;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.logo{
+    /* border: 1px solid; */
+    font-size: 23px;
+    flex: 15%;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.menu {  
+    /* border: 1px solid; */
+    flex: 55%;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    padding: 20px 120px 20px 20px;
+    margin-left: 15%;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 16px;
+}
+
+
+.menu a:hover{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 16px;
+}
+
+
+#botao_contato {
+    background: #102838;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding:px;
+    text-decoration: none;
+    margin-right: 15%;
+    margin-left: 5%;
+}
+
+
+#botao_contato:hover {
+    background-color: #0aaabe;
+    color: #0f1216;
+    font-size: 20px;
+}
+
+
+
+
+
+.header {
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    display: flex;
+    flex: 55%;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-flow: row;
+    background-color: #083747;
+    background-image: radial-gradient(#056c81, #083747 73%);
+}
+
+
+.headline{
+    /* border: 1px solid white; */
+    flex: 40%;
+    margin-left: 1%;
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.imagem{
+    /* border: 1px solid white; */
+    text-align: center;
+    margin-top: 10px;
+    flex: 35%;
+}
+
+
+
+a.botao_curriculo {
+    display: inline-block;
+    margin-top: 5px;
+    background: #102838;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding:10px;
+    text-decoration: none;
+}
+
+
+a.botao_curriculo:hover {
+    background-color: #0aaabe;
+    color: #0f1216;
+    padding:12px;
+    text-decoration: none;
+}
+
+
+h2 {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+
+}
+ 
+
+
+.sobre{
+    /* border: 1px solid white; */
+    display: flex;
+    flex: 55%;
+    flex-flow: row;
+    background-color: #083747;
+    background-image: radial-gradient(#056c81, #083747 73%);
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-flow: row;
+}
+
+
+.foto {
+    /* border: 1px solid white; */
+    margin-left: 12%;
+    flex: 40%;
+}
+
+.foto_carlos {
+    border-radius: 80%;
+}
+
+
+.mini_icones a{
+    padding: 5px;
+}
+
+
+.texto_sobre {
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    margin-right: 1%;
+    text-align: justify;
+    flex: 60%;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+.sessao_icones{
+    /* border: 1px solid white; */
+    text-align: center;
+    padding:  20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #083747;
+    background-image: radial-gradient(#056c81, #083747 73%);
+}
+
+
+.icones {  
+    /* border: 1px solid; */
+    justify-content: center;
+    padding: 30px 20px 20px 20px;
+
+}
+.imagem {
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.portifolio{
+    /* border: 1px solid white; */
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    background-color: #083747;
+    background-image: radial-gradient(#056c81, #083747 73%);
+}
+
+
+
+.servicos {
+    /* border: 1px solid white; */
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.cards{
+    /* border: 1px solid; */
+    display: inline-block;
+    width: 25%;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    /* box-shadow: 5px 5px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,100), 0 6px 20px 0 rgba(0,0,0,0.100); */
+}
+
+
+
+
+
+.footer {
+    /* border: 1px solid white; */
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px;
+    text-align: center;
+    margin-right: 10%;
+    /* background-color: #083747;
+    background-image: radial-gradient(#056c81, #083747 80%); */
+}
+
+.contact-form h1 {  
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact-form form {
+    display: inline-block;
+}
+
+.contact-form-items{
+
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: -120px;
+}
+
+.items {
+    display: flex;
+    padding: 10px;
+    justify-content: left;
+    width: 800px;
+}
+
+#name, #email, #message {
+    margin: 10px;
+    color: #040838;
+    font-size: 18px;
+    
+}
+
+#label_name, #label_email {
+    margin-top: 15px;
+}
+
+#label_message {
+    margin-top: 90px;
+}
+
+.button-submit {
+    margin-top: 10px;
+    color: #083747 ;
+    font-size: 20px;
+    margin-left: 370px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.contact-form form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.contact-form label {
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #040838;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #042066;
+}  
